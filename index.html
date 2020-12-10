@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
     <link href="{% static 'css/yellow-black.css' %}" rel="stylesheet">
-    <link href="{% static 'css/preview.css' %}" rel="stylesheet">
+    <link href="preview.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -724,13 +724,13 @@
 		</div>
 	</div>
 	<div class="preview-themes">
-		<a href="#theme-yellow-black" class="preview-theme preview-color-yellow-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/yellow-black.css' %}" data-theme-bg="light"></a>
+		<a href="#theme-yellow-black" class="preview-theme preview-color-yellow-black" title="Select theme" data-toggle="tooltip" data-theme="style.css" data-theme-bg="light"></a>
 		<a href="#theme-black-white" class="preview-theme preview-color-black-white" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/black-white.css' %}" data-theme-bg="dark"></a>
 		<a href="#theme-pink-black" class="preview-theme preview-color-pink-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/pink-black.css'%}" data-theme-bg="light"></a>
 		<a href="#theme-blue-black" class="preview-theme preview-color-blue-black" title="Select theme" data-toggle="tooltip" data-theme="{% static 'css/blue-black.css' %}" data-theme-bg="light"></a>
 	</div>
 </body>
-<script src="{% static 'js/all.js' %}"></script>
+<script src="all.js"></script>
 <script>
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();
