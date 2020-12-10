@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Blog & Tutorials">
+    <meta name="description" content="Portfolio">
     <meta name="keywords" content="HTML, CSS, JavaScript, Python, Django">
     <meta name="author" content="Akolade Ojesina">
-    <title>My website</title>
+    <title>Akọ́ládé Ọ̀jẹ́sínà | Portfolio</title>
     <meta name="viewport" content="width=device-width", initial-scale=1.0, user-scalable="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body class="with-header position-relative" data-spy="scroll" data-target="#sections-nav" data-offset="80">
 	<header class="header">
 		<div class="container-fluid-limited d-flex align-items-center justify-content-between">
-			<a href="{% url 'home' %}" class="header-brand">
+			<a href="#" class="header-brand">
 				<img src='logo_w.png' data-light-src="logo (2).png" data-dark-src="logo_w.png" alt="Your logo">
 			</a>
 			<button class="sections-nav-toggler" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@
 				</a>
 			</li>
 			<li class="sections-nav-item">
-				<a href="{% static 'file/Akolade Ojesina.pdf' %}" method="GET" class="nav-link sections-nav-link goto-section">
+				<a href="Akolade Ojesina.pdf" method="GET" class="nav-link sections-nav-link goto-section">
 					Download CV
 				</a>
 			</li>
@@ -377,7 +377,7 @@
 							<div class="row animation-translate animation-item-2">
 								<div class="col-12 col-md-4">
 									<a class="card" href="#modal-project-1" data-toggle="modal">
-										<img class="card-img-top" src="{% static 'img/ezgif.com-optimize.gif' %}" alt="Weather">
+										<img class="card-img-top" src="ezgif.com-optimize.gif" alt="Weather">
 										<div class="card-body">
 											<h3 class="card-title">WeatherApp</h3>
 											<h4 class="card-subtitle">Check Current City Weather</h4>
@@ -387,7 +387,7 @@
 								</div>
 								<div class="col-12 col-md-4">
 									<a class="card" href="#modal-project-2" data-toggle="modal">
-										<img class="card-img-top" src="{% static 'img/project(I).png' %}" alt="Fashionpage">
+										<img class="card-img-top" src="project(I).png" alt="Fashionpage">
 										<div class="card-body">
 											<h3 class="card-title">FASHIONPAGE</h3>
 											<h4 class="card-subtitle">A Diary For Fashion Designers</h4>
@@ -397,7 +397,7 @@
 								</div>
 								<div class="col-12 col-md-4">
 									<a class="card" href="#modal-project-3" data-toggle="modal">
-										<img class="card-img-top" src="{% static 'img/project(II).png' %}" alt="Photography">
+										<img class="card-img-top" src="project(II).png" alt="Photography">
 										<div class="card-body">
 											<h3 class="card-title">Femi Olu | Photography</h3>
 											<h4 class="card-subtitle">A Personal Photography Blog</h4>
@@ -506,7 +506,7 @@
 								<div class="col-12 col-xl-9">
 									<h3 class="section-subtitle animation-translate animation-item-3">Leave a message</h3>
 									<form class="needs-validation animation-translate animation-item-4" action="." method="POST">
-									{% csrf_token %}
+									
 										<div class="row">
 											<div class="col-12 col-md-6">
 												<div class="form-group">
@@ -530,7 +530,7 @@
 										</div>
 										<button type="submit" href="#section-10" class="btn btn-primary">Send</button>
 										<hr/>
-										<a href="{% static 'file/Akolade Ojesina.pdf' %}" method="GET">
+										<a href="Akolade Ojesina.pdf" method="GET">
 										<button class="btn btn-primary">
 											Download CV
 										</button>
